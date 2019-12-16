@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cafc287-8d69-48e0-b4f3-a13428c2c20d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/challenges.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/daniel_moore.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenge1/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenge1/challenge1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenge2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenge2/challenge2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenge3.1/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenge3.1/challenge3.1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenge3.2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenge3.2/challenge3.2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenge3/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenge3/challenge3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenge4/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenge4/challenge_four.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenge4/fibonacci_sequence_generation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenge5/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenge5/challenge5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random_testing/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random_testing/selenium_value_pull.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,9 +148,25 @@
       <option name="presentableId" value="Default" />
       <updated>1574355193468</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit of work on many challenges">
+      <created>1576520674729</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576520674729</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit of work on many challenges" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit of work on many challenges" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="476" y="466" key="#Notifications" timestamp="1576520736011">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="476" y="466" key="#Notifications/-1920.0.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1576520736011" />
     <state x="678" y="377" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575994396170">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
