@@ -15,6 +15,8 @@ class challenge5(unittest.TestCase):
         self.driver.close()
 
     def test_challenge5(self):
+        porsche_model_location = 6
+        porsche_damage_location = 12
         # Navigate to Copart
         self.driver.get("https://www.copart.com")
         self.assertIn("Copart", self.driver.title)
@@ -27,27 +29,35 @@ class challenge5(unittest.TestCase):
         # Change the drop down for “Show Entries” to 100 from 20
         input_field.send_keys(Keys.ESCAPE)
         self.driver.find_element_by_xpath("//*[@name=\"serverSideDataTable_length\"]").click()
+        WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((
+            By.XPATH, "//*[@name=\"serverSideDataTable_length\"]//option[3]")))
         self.driver.find_element_by_xpath("//*[@name=\"serverSideDataTable_length\"]//option[3]").click()
         WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((
-            By.XPATH, "//*[@id=\"serverSideDataTable\"]//tbody//td[6]/span")))
-        # Count how many different models of porsche are in the results on the first page
-        total_models = 0
-        porsche_element_text = []
-        porsche_model_types = {}
-        porsche_element = self.driver.find_elements_by_xpath("//*[@id=\"serverSideDataTable\"]/tbody//*/td[6]/span")
-        for x in porsche_element:
-            porsche_element_text.append(x.text)
-        print(porsche_element_text)
-        for x in porsche_element_text:
-            if x not in porsche_model_types:
-                porsche_model_types[x] = 1
-                total_models += total_models
-            else:
-                porsche_model_types[x] += porsche_model_types[x]
-        # Return in the terminal how many of each type exists
-        print(str(porsche_model_types))
+            By.XPATH, "//*[@id=\"serverSideDataTable\"]//tbody/tr[100]")))
+        # Create a way to count different types of data about the cars that are in the results on the first page
         # Create a switch statement to count the types of damages:
         # REAR END, FRONT END, MINOR DENT/SCRATCHES, UNDERCARRIAGE, Other types are grouped into MISC
+        
+        def porsche_info_pull(desired_info):
+            porsche_variable_types = {}
+            total_porsche_variables = 0
+            porsche_element_text = []
+            porsche_element = self.driver.find_elements_by_xpath(
+                "//*[@id=\"serverSideDataTable\"]/tbody//*/td["+str(desired_info)+"]/span")
+            for x in porsche_element:
+                porsche_element_text.append(x.text)
+            for x in porsche_element_text:
+                if x not in porsche_variable_types:
+                    porsche_variable_types[x] = 1
+                    total_porsche_variables += total_porsche_variables
+                else:
+                    porsche_variable_types[x] += 1
+            # Return in the terminal how many of each type exists
+            print(porsche_variable_types)
+        print("PORSCHE MODELS")
+        porsche_info_pull(porsche_model_location)
+        print("PORSCHE MODEL DAMAGE")
+        porsche_info_pull(porsche_damage_location)
 
 
 if __name__ == '__main__':
