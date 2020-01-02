@@ -67,7 +67,7 @@ class challenge5(unittest.TestCase):
                     porsche_variable_types[x] += 1
             # Return in the terminal how many of each type exists
             print(porsche_variable_types)
-        
+
         print("PORSCHE MODELS")
         porsche_info_pull(porsche_data_columns["model"])
         print("PORSCHE MODEL DAMAGE")
