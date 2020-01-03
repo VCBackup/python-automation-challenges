@@ -35,18 +35,23 @@ class challenge6(unittest.TestCase):
         WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((
             By.XPATH, "//*[@id=\"serverSideDataTable\"]//tbody/tr[100]")))
         # Search for Model "Skyline"
-        counter = 1
         try:
-            nissan_models = self.driver.find_elements_by_xpath("//*[@id=\"serverSideDataTable\"]//td[6]")
-            for x in nissan_models:
-                if x.text == "ARMADA":
-                    self.driver.find_element_by_xpath("//*[@id=\"serverSideDataTable\"]"
-                                                      "//tr["+str(counter)+"]/td[3]/div/a").click()
-                counter += 1
+            self.driver.find_element_by_xpath("//*[text()=\"SKYLINE\"]/../preceding-sibling::td[3]/div/a").click()
         # If it doesn't exist throw an exception, catch the exception, and take a screenshot
         except Exception:
-            logging.warning("No Skyline link to click")
+            logging.warning("No Skyline link to click - Test Failed")
             self.driver.save_screenshot("skyline_missing.png")
+        # counter = 1
+        # nissan_models = self.driver.find_elements_by_xpath("//*[@id=\"serverSideDataTable\"]//td[6]")
+        # for x in nissan_models:
+        #     if x.text == "SKYLINE":
+        #         try:
+        #             self.driver.find_element_by_xpath("//*[@id=\"serverSideDataTable\"]"
+        #                                               "//tr["+str(counter)+"]/td[3]/div/a").click()
+        #         except Exception:
+        #             logging.warning("No Skyline link to click")
+        #             self.driver.save_screenshot("skyline_missing.png")
+        #     counter += 1
 
 
 if __name__ == '__main__':

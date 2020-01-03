@@ -41,7 +41,7 @@ class challenge5(unittest.TestCase):
         input_field.send_keys(Keys.RETURN)
         WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((
             By.XPATH, "//*[@id=\"serverSideDataTable\"]//tbody//td[6]/span")))
-        # Change the drop down for “Show Entries” to 100 from 20
+        # Change the drop down “Show Entries” from 20 to 100
         input_field.send_keys(Keys.ESCAPE)
         self.driver.find_element_by_xpath("//*[@name=\"serverSideDataTable_length\"]").click()
         WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((
@@ -65,7 +65,7 @@ class challenge5(unittest.TestCase):
                     total_porsche_variables += total_porsche_variables
                 else:
                     porsche_variable_types[x] += 1
-            # Return in the terminal how many of each type exists
+            # Return in the terminal how many of each type exist
             print(porsche_variable_types)
 
         print("PORSCHE MODELS")
