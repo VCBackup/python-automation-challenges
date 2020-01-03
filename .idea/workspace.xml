@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7cafc287-8d69-48e0-b4f3-a13428c2c20d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenge5/challenge5.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenge5/challenge5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenge6/challenge6.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenge6/challenge6.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +37,7 @@
       <recent name="C:\Users\daniel.moore\PycharmProjects\challenges\challenge2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for challenge6.challenge6.test_challenge6">
+  <component name="RunManager" selected="Python tests.Unittests for challenge7.challenge7.test_challenge7">
     <configuration name="challenge3.2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,20 +80,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for challenge3.challenge3.test_challenge3_for_loop" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="challenges" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/challenge3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;challenge3.challenge3.test_challenge3_for_loop&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests for challenge5.challenge5.test_challenge5" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,13 +108,27 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for challenge7.challenge7.test_challenge7" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="challenges" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/challenge7" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;challenge7.challenge7.test_challenge7&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for challenge7.challenge7.test_challenge7" />
         <item itemvalue="Python tests.Unittests for challenge6.challenge6.test_challenge6" />
         <item itemvalue="Python tests.Unittests for challenge5.challenge5.test_challenge5" />
         <item itemvalue="Python.challenge3.2" />
         <item itemvalue="Python.challenge_four" />
-        <item itemvalue="Python tests.Unittests for challenge3.challenge3.test_challenge3_for_loop" />
       </list>
     </recent_temporary>
   </component>
@@ -196,22 +194,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="958" y="484" key="EnvironmentVariablesDialog/-1920.0.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1575994393916" />
-    <state width="2413" height="331" key="GridCell.Tab.0.bottom" timestamp="1578070234593">
+    <state width="2413" height="331" key="GridCell.Tab.0.bottom" timestamp="1578090927855">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2413" height="331" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1578070234593" />
-    <state width="2413" height="331" key="GridCell.Tab.0.center" timestamp="1578070234593">
+    <state width="2413" height="331" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1578090927855" />
+    <state width="2413" height="331" key="GridCell.Tab.0.center" timestamp="1578090927855">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2413" height="331" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1578070234593" />
-    <state width="2413" height="331" key="GridCell.Tab.0.left" timestamp="1578070234593">
+    <state width="2413" height="331" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1578090927855" />
+    <state width="2413" height="331" key="GridCell.Tab.0.left" timestamp="1578090927855">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2413" height="331" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1578070234593" />
-    <state width="2413" height="331" key="GridCell.Tab.0.right" timestamp="1578070234593">
+    <state width="2413" height="331" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1578090927855" />
+    <state width="2413" height="331" key="GridCell.Tab.0.right" timestamp="1578090927855">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2413" height="331" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1578070234593" />
+    <state width="2413" height="331" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1578090927855" />
     <state width="2413" height="305" key="GridCell.Tab.1.bottom" timestamp="1578066227392">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
