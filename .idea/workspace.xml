@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cafc287-8d69-48e0-b4f3-a13428c2c20d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/challenges.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/challenges.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenge3/challenge3.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenge3/challenge3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenge7/challenge7.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenge7/challenge7.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,12 +27,14 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -38,7 +44,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Python tests.Unittests for challenge7.challenge7.test_challenge7">
-    <configuration name="challenge3.2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="challenge3.2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -53,27 +59,6 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/challenge3.2/challenge3.2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="challenge_four" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="challenges" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/challenge4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/challenge4/challenge_four.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -122,13 +107,27 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for challenge_four.challenge_four" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="challenges" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/challenge4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;challenge_four.challenge_four&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Unittests for challenge7.challenge7.test_challenge7" />
         <item itemvalue="Python tests.Unittests for challenge6.challenge6.test_challenge6" />
         <item itemvalue="Python tests.Unittests for challenge5.challenge5.test_challenge5" />
+        <item itemvalue="Python tests.Unittests for challenge_four.challenge_four" />
         <item itemvalue="Python.challenge3.2" />
-        <item itemvalue="Python.challenge_four" />
       </list>
     </recent_temporary>
   </component>
@@ -144,6 +143,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -168,71 +168,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit of work on many challenges" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit of work on many challenges" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="476" y="466" key="#Notifications" timestamp="1576520736011">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="476" y="466" key="#Notifications/-1920.0.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1576520736011" />
-    <state x="678" y="377" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575994396170">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="678" y="377" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1575994396170" />
-    <state x="653" y="610" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575917194797">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="653" y="610" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1575917194797" />
-    <state x="1102" y="425" key="#xdebugger.evaluate" timestamp="1575994502798">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1102" y="425" key="#xdebugger.evaluate/-1920.0.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1575994502798" />
-    <state x="538" y="402" key="CommitChangelistDialog2" timestamp="1576520674073">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="538" y="402" key="CommitChangelistDialog2/-1920.0.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1576520674073" />
-    <state x="958" y="484" key="EnvironmentVariablesDialog" timestamp="1575994393916">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="958" y="484" key="EnvironmentVariablesDialog/-1920.0.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1575994393916" />
-    <state width="2413" height="331" key="GridCell.Tab.0.bottom" timestamp="1578090927855">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2413" height="331" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1578090927855" />
-    <state width="2413" height="331" key="GridCell.Tab.0.center" timestamp="1578090927855">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2413" height="331" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1578090927855" />
-    <state width="2413" height="331" key="GridCell.Tab.0.left" timestamp="1578090927855">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2413" height="331" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1578090927855" />
-    <state width="2413" height="331" key="GridCell.Tab.0.right" timestamp="1578090927855">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2413" height="331" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1578090927855" />
-    <state width="2413" height="305" key="GridCell.Tab.1.bottom" timestamp="1578066227392">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2413" height="305" key="GridCell.Tab.1.bottom/-1920.0.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1578066227392" />
-    <state width="2413" height="305" key="GridCell.Tab.1.center" timestamp="1578066227392">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2413" height="305" key="GridCell.Tab.1.center/-1920.0.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1578066227392" />
-    <state width="2413" height="305" key="GridCell.Tab.1.left" timestamp="1578066227392">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2413" height="305" key="GridCell.Tab.1.left/-1920.0.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1578066227392" />
-    <state width="2413" height="305" key="GridCell.Tab.1.right" timestamp="1578066227392">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2413" height="305" key="GridCell.Tab.1.right/-1920.0.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1578066227392" />
-    <state x="476" y="540" key="Vcs.Push.Dialog.v2" timestamp="1576520529383">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="476" y="540" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1576520529383" />
-    <state x="976" y="523" width="791" height="423" key="com.intellij.ide.util.TipDialog" timestamp="1577983772725">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="976" y="523" width="791" height="423" key="com.intellij.ide.util.TipDialog/-1920.0.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1577983772725" />
   </component>
 </project>
