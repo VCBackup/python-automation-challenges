@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cafc287-8d69-48e0-b4f3-a13428c2c20d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/challenges.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/challenges.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenge3/challenge3.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenge3/challenge3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenge7/challenge7.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenge7/challenge7.py" afterDir="false" />
-    </list>
+    <list default="true" id="7cafc287-8d69-48e0-b4f3-a13428c2c20d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -162,11 +156,47 @@
       <option name="project" value="LOCAL" />
       <updated>1576520674729</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated to fix some bugs">
+      <created>1619998738333</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619998738333</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Updated to fix some bugs">
+      <created>1619998952361</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619998952361</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updated to fix some bugs">
+      <created>1619998960379</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619998960379</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updated to fix some bugs">
+      <created>1619998964083</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619998964083</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Updated to fix some bugs">
+      <created>1619998967789</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619998967789</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit of work on many challenges" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit of work on many challenges" />
+    <MESSAGE value="Updated to fix some bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated to fix some bugs" />
   </component>
 </project>
